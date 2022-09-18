@@ -35,7 +35,6 @@ public class FirstTest {
 
         //Действия над элементами
         driver.get(MOBI_PAY_URL);
-        driver.getTitle();
         driver.findElement(phoneNumber).sendKeys("507015958");
         driver.findElement(amount).sendKeys(Keys.COMMAND+"A");
         driver.findElement(amount).sendKeys(Keys.BACK_SPACE);
